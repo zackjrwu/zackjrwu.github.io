@@ -4,14 +4,19 @@
   <meta charset="utf-8">
   
   
-  <title>札克的工程記事</title>
+  <title>What Is Javascript? | 札克的工程記事</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="札克的工程記事">
-<meta property="og:url" content="http://example.com/index.html">
+  <meta name="description" content="前端程式語言JavaScript 是一種高級、解釋性、弱型別的腳本語言，廣泛應用於 Web 開發中。作為前端程式語言的核心之一，JavaScript 能夠動態地更新 HTML 和 CSS，從而實現豐富的互動效果和動態內容。最初由 Netscape 在 1995 年開發，JavaScript 現已成為所有現代網頁瀏覽器的標準配備。這種語言既可以在客戶端執行，也可以在伺服器端（例如 Node.js）使">
+<meta property="og:type" content="article">
+<meta property="og:title" content="What Is Javascript?">
+<meta property="og:url" content="http://example.com/2024/06/01/What-Is-Javascript/index.html">
 <meta property="og:site_name" content="札克的工程記事">
+<meta property="og:description" content="前端程式語言JavaScript 是一種高級、解釋性、弱型別的腳本語言，廣泛應用於 Web 開發中。作為前端程式語言的核心之一，JavaScript 能夠動態地更新 HTML 和 CSS，從而實現豐富的互動效果和動態內容。最初由 Netscape 在 1995 年開發，JavaScript 現已成為所有現代網頁瀏覽器的標準配備。這種語言既可以在客戶端執行，也可以在伺服器端（例如 Node.js）使">
 <meta property="og:locale" content="zh_TW">
+<meta property="article:published_time" content="2024-06-01T12:53:16.000Z">
+<meta property="article:modified_time" content="2024-06-01T12:53:58.909Z">
 <meta property="article:author" content="Zack Wu">
+<meta property="article:tag" content="javascript">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternate" href="/atom.xml" title="札克的工程記事" type="application/atom+xml">
@@ -71,9 +76,7 @@
 </header>
 
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-What-Is-Javascript" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+        <section id="main"><article id="post-What-Is-Javascript" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/2024/06/01/What-Is-Javascript/" class="article-date">
   <time class="dt-published" datetime="2024-06-01T12:53:16.000Z" itemprop="datePublished">2024-06-01</time>
@@ -86,8 +89,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2024/06/01/What-Is-Javascript/">What Is Javascript?</a>
+    <h1 class="p-name article-title" itemprop="headline name">
+      What Is Javascript?
     </h1>
   
 
@@ -138,114 +141,19 @@
     </footer>
   </div>
   
-</article>
-
-
-
+    
+<nav id="article-nav">
   
-    <article id="post-Install-Git-On-Mac" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2024/06/01/Install-Git-On-Mac/" class="article-date">
-  <time class="dt-published" datetime="2024-06-01T04:00:36.000Z" itemprop="datePublished">2024-06-01</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2024/06/01/Install-Git-On-Mac/">Install-Git-On-Mac</a>
-    </h1>
+    <a href="/2024/06/01/Install-Git-On-Mac/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Install-Git-On-Mac</div>
+    </a>
   
+</nav>
 
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <p>在 MAC 系統上其實有預裝了 git 版本控制</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git -v</span><br><span class="line">git version 2.39.3 (Apple Git-146)</span><br></pre></td></tr></table></figure>
-
-<p>我的裝置得到的是 2.39.3</p>
-<p>如果想更新到最新版本的話</p>
-<ol>
-<li>用 homebrew 下載<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">brew install git</span><br></pre></td></tr></table></figure></li>
-<li>找到下載到的路徑<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">which git</span><br><span class="line">/opt/homebrew/opt/git/bin/git</span><br></pre></td></tr></table></figure></li>
-<li>修改 PATH 環境變數<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nano ~/.zshrc</span><br></pre></td></tr></table></figure>
-在最下方加上<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">export PATH=&quot;/opt/homebrew/opt/git/bin:$PATH&quot;</span><br></pre></td></tr></table></figure></li>
-<li>重啟<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">source ~/.zshrc</span><br></pre></td></tr></table></figure></li>
-</ol>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2024/06/01/Install-Git-On-Mac/" data-id="clww47xmp0000ynoi8z8g63nm" data-title="Install-Git-On-Mac" class="article-share-link"><span class="fa fa-share">Share</span></a>
-      
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/CODE/" rel="tag">CODE</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/GIT/" rel="tag">GIT</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/MAC/" rel="tag">MAC</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/ZSH/" rel="tag">ZSH</a></li></ul>
-
-    </footer>
-  </div>
   
 </article>
-
-
-
-  
-    <article id="post-hello-world" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2024/06/01/hello-world/" class="article-date">
-  <time class="dt-published" datetime="2024-06-01T03:23:53.162Z" itemprop="datePublished">2024-06-01</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2024/06/01/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2024/06/01/hello-world/" data-id="clww47xmv000cynoi2ephdift" data-title="Hello World" class="article-share-link"><span class="fa fa-share">Share</span></a>
-      
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
 
 
 </section>
